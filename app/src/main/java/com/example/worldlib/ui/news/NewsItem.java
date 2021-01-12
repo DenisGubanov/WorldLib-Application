@@ -14,7 +14,7 @@ public class NewsItem {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -54,7 +54,7 @@ public class NewsItem {
         return start;
     }
 
-    public void setStart(DataFormatException start) {
+    public void setStart(String start) {
         this.start = start;
     }
 }
