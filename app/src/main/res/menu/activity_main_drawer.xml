@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/home_7"
+            android:title="@string/menu_news" />
+        <item
+            android:id="@+id/nav_yourorders"
+            android:icon="@drawable/filing_7"
+            android:title="@string/menu_yourOrders" />
+        <item
+            android:id="@+id/nav_otherorders"
+            android:icon="@drawable/earth_america_7"
+            android:title="@string/menu_otherOrders" />
+        <item
+            android:id="@+id/nav_create"
+            android:icon="@drawable/new_sign_badge_7"
+            android:title="@string/menu_create" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/message_7"
+            android:title="@string/menu_help" />
+    </group>
+</menu>

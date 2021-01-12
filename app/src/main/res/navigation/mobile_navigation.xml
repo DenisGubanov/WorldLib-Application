@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_news">
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.example.worldlib.ui.news.NewsFragment"
+        android:label="@string/menu_news"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/nav_yourorders"
+        android:name="com.example.worldlib.ui.yourOrders.YourOrdersFragment"
+        android:label="@string/menu_yourOrders"
+        tools:layout="@layout/fragment_yourorders" />
+
+    <fragment
+        android:id="@+id/nav_otherorders"
+        android:name="com.example.worldlib.ui.otherOrders.OtherOrdersFragment"
+        android:label="@string/menu_otherOrders"
+        tools:layout="@layout/fragment_otherorders" />
+
+    <fragment
+        android:id="@+id/nav_create"
+        android:name="com.example.worldlib.ui.create.CreateFragment"
+        android:label="@string/menu_create"
+        tools:layout="@layout/fragment_create" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.worldlib.ui.help.HelpFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_help" />
+
+</navigation>

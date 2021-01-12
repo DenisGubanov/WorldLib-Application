@@ -1,0 +1,23 @@
+package com.example.worldlib.ui.yourOrders;
+
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.ViewModel;
+
+public class YourOrdersViewModel extends ViewModel {
+
+    boolean FragmentActivation = false;
+    private MutableLiveData<String> mText;
+
+    public YourOrdersViewModel() {
+        mText = new MutableLiveData<>();
+        if (FragmentActivation) {
+            mText.setValue("This is gallery fragment");
+        }
+
+    }
+
+    public LiveData<String> getText() {
+        return mText;
+    }
+}
